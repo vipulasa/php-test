@@ -1,7 +1,5 @@
 <?php
-
-$page = $_GET['page'] ?? 'home';
-
+    require "bootstrap.php";
 ?>
 
 <!DOCTYPE html>
