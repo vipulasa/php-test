@@ -1,2 +1,2 @@
-<h2><?php echo $title; ?></h2>
-<p><?php echo $content ?></p>
+<h2><?php echo $application['title']; ?></h2>
+<p><?php echo $application['content'] ?></p>

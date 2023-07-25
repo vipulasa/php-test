@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class='span8 main'>
-       <?php include "pages/$page.php"; ?>
+       <?php include "pages/". $application['page'] .".php"; ?>
       </div>    
     </div>
   </div>

@@ -1,16 +1,7 @@
 <?php
-$page = $_GET['page'] ?? 'home';
 
-$pages = ['home', 'about', 'gallery', 'contact'];
+require "Application.php";
 
-if (!in_array($page, $pages)) {
-    $page = '404';
-}
+$app = new Application();
 
-$title = ucfirst($page);
-
-$content = '';
-
-// This is where you can dynamically load content
-
-$content = 'lorem ipsum dolor sit amet';
+$application = $app->run();
